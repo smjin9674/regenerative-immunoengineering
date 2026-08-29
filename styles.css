@@ -308,13 +308,13 @@ h3 {
 
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
 
 .research-card {
-  min-height: 310px;
+  min-height: 390px;
   padding: clamp(1.5rem, 4vw, 3rem);
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -325,22 +325,18 @@ h3 {
   background: var(--white);
 }
 
-.card-number {
+.focus-label {
   display: block;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.75rem;
   color: var(--green);
   font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .research-card p {
   color: var(--ink-soft);
-}
-
-.research-card .keywords {
-  margin-top: 2rem;
-  color: var(--green);
-  font-size: 0.78rem;
-  font-weight: 500;
 }
 
 .publication-list {
@@ -676,6 +672,14 @@ footer p {
 
   .featured-project {
     grid-template-columns: 1fr;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card {
+    min-height: 0;
   }
 
   .writing-board-header,
