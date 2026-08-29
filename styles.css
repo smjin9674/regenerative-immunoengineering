@@ -595,6 +595,16 @@ footer p {
   font-size: clamp(1.22rem, 2.95vw, 3.02rem);
 }
 
+.publication-covers {
+  margin: -1.25rem 0 3rem;
+}
+
+.publication-covers img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .cv-header p {
   color: var(--ink-soft);
 }
