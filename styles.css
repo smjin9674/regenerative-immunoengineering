@@ -74,26 +74,16 @@ footer {
   border-bottom: 1px solid var(--line);
 }
 
-.site-name {
+.site-logo {
   display: inline-flex;
-  gap: 0.75rem;
   align-items: center;
-  color: var(--ink);
-  font-weight: 600;
   text-decoration: none;
 }
 
-.mark {
-  display: grid;
-  width: 2.5rem;
-  height: 2.5rem;
-  place-items: center;
-  border-radius: 50%;
-  color: var(--white);
-  background: var(--green);
-  font-family: var(--serif);
-  font-size: 0.9rem;
-  letter-spacing: 0.06em;
+.site-logo img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
 }
 
 nav {
