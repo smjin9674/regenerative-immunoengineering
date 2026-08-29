@@ -3,13 +3,13 @@
 :root {
   --ink: #17231e;
   --ink-soft: #4f5d56;
-  --paper: #eef6fb;
-  --paper-deep: #dcecf6;
+  --paper: #f4f1e9;
+  --paper-deep: #e9e4d8;
   --green: #1d5a46;
   --green-dark: #123d31;
   --sage: #b7c9ba;
-  --line: #c3d6e4;
-  --white: #ffffff;
+  --line: #cfcbbf;
+  --white: #fffdf8;
   --sans: "DM Sans", Arial, sans-serif;
   --serif: "Newsreader", Georgia, serif;
   --max-width: 1180px;
@@ -211,7 +211,7 @@ h3 {
 .profile-card {
   padding: 1rem;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.52);
+  background: rgba(255, 253, 248, 0.48);
 }
 
 .portrait-placeholder {
