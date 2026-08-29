@@ -588,6 +588,11 @@ footer p {
 
 .cv-header h1 {
   margin-bottom: 0.5rem;
+  font-size: clamp(3.05rem, 6.5vw, 6.25rem);
+}
+
+.publication-group-title {
+  font-size: clamp(2.05rem, 3.9vw, 3.85rem);
 }
 
 .cv-header p {
