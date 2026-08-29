@@ -277,6 +277,12 @@ h3 {
   font-size: clamp(3rem, 5vw, 4.8rem);
 }
 
+#research-heading,
+#publications-heading,
+#projects-heading {
+  font-size: clamp(2.7rem, 4.5vw, 4.5rem);
+}
+
 .quick-facts {
   margin: 1.3rem 0 0;
   padding-top: 1rem;
