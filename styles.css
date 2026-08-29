@@ -367,13 +367,18 @@ h3 {
 }
 
 .focus-label {
-  display: block;
+  display: flex;
+  gap: 0.65rem;
   margin-bottom: 2.75rem;
   color: var(--green);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.focus-label span {
+  color: var(--ink-soft);
 }
 
 .research-card p {
