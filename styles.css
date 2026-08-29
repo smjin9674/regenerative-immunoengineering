@@ -597,7 +597,7 @@ footer p {
 
 .publication-covers {
   width: calc(100% - 1.65rem);
-  max-width: 1000px;
+  max-width: 760px;
   margin: -1.25rem 0 3rem 1.65rem;
 }
 
