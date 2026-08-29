@@ -22,21 +22,16 @@
 └── README.md           # 지금 읽고 있는 안내서
 ```
 
-## 1단계: 내 정보로 바꾸기
+## 1단계: 남은 프로필 정보 추가하기
 
-코드 편집기에서 프로젝트 전체 검색을 사용해 아래 항목을 교체하세요.
+이름, 직책, 소속, 학력, 경력, 연구 관심사, 논문, 수상, 발표와 학술용 이메일은 제공된 CV를 바탕으로 입력했습니다. 공개 전에는 다음 정보만 추가로 확인하면 됩니다.
 
-| 현재 문구 | 바꿀 내용 |
-| --- | --- |
-| `Your Name` | 영문 이름 |
-| `YN` | 영문 이니셜 |
-| `Your Current Position` | 현재 직책 |
-| `Your Department` | 소속 학과/부서 |
-| `Your University or Institute` | 대학 또는 연구기관 |
-| `your.email@university.edu` | 이메일 |
-| `City, Country` | 활동 지역 |
+- 프로필 사진
+- Google Scholar, ORCID, GitHub, LinkedIn 주소
+- 각 논문의 DOI 또는 저널 페이지 주소
+- NicheAI 소개에서 공개 가능한 범위
 
-그다음 `index.html`의 연구 설명, 논문, 프로젝트, 소식, 프로필 링크를 실제 정보로 수정하세요. HTML 주석은 화면에 보이지 않으므로 나중에 편집 메모를 남길 때 `<!-- 메모 -->` 형식을 사용할 수 있습니다.
+HTML 주석은 화면에 보이지 않으므로 나중에 편집 메모를 남길 때 `<!-- 메모 -->` 형식을 사용할 수 있습니다.
 
 프로필 사진을 넣으려면:
 
@@ -44,7 +39,7 @@
 2. `index.html`에서 `portrait-placeholder`가 있는 `<div>...</div>` 전체를 아래 한 줄로 바꿉니다.
 
 ```html
-<img class="portrait-placeholder" src="assets/profile.jpg" alt="Portrait of Your Name" />
+<img class="portrait-placeholder" src="assets/profile.jpg" alt="Portrait of Seung Mo Jin" />
 ```
 
 ## 2단계: 내 컴퓨터에서 확인하기
@@ -119,8 +114,8 @@ git push
 
 ## 공개 전 점검표
 
-- [ ] 이름, 소속, 이메일, 지역을 실제 정보로 교체했다.
-- [ ] 가짜 논문 예시를 모두 실제 논문으로 교체했다.
+- [x] 이름, 소속, 학술용 이메일을 실제 정보로 교체했다.
+- [x] CV의 실제 논문과 연구 경력을 반영했다.
 - [ ] Google Scholar, ORCID, GitHub, LinkedIn 링크를 넣었다.
 - [ ] 프로필 사진과 대체 텍스트를 넣었다.
 - [ ] CV의 학력, 경력, 수상, 기술을 수정했다.
