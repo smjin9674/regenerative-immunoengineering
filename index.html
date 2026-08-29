@@ -18,15 +18,15 @@
     <header class="site-header">
       <a class="site-logo" href="#top" aria-label="Home">
         <img
-          src="assets/university.shield.rgb.blue.svg"
-          alt="Johns Hopkins University shield"
+          src="assets/johns-hopkins-university-banner.png"
+          alt="Johns Hopkins University"
         />
       </a>
       <nav aria-label="Primary navigation">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
-        <a href="#news">News</a>
+        <a href="#writing">Writing</a>
         <a href="cv.html">CV</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <aside class="profile-card" aria-label="Current position and focus">
+        <aside class="profile-card" aria-label="Current position and research interests">
           <img
             class="portrait-placeholder"
             src="assets/seung-mo-jin.jpeg"
@@ -58,16 +58,23 @@
           />
           <div>
             <p class="profile-role">Postdoctoral Fellow</p>
-            <p>Translational Therapeutic and Regenerative Engineering Center (T‑TREC)<br />Johns Hopkins University</p>
+            <p class="profile-affiliation">
+              <span>T-TREC</span>
+              <span>Johns Hopkins University</span>
+            </p>
           </div>
           <dl class="quick-facts">
             <div>
-              <dt>Based at</dt>
-              <dd>Johns Hopkins University</dd>
-            </div>
-            <div>
-              <dt>Focus</dt>
-              <dd>Aging, immunity, and tissue regeneration</dd>
+              <dt>Research Interests</dt>
+              <dd>
+                <ul>
+                  <li>Multicellular tissue niches &amp; cell-cell communications</li>
+                  <li>Single cell and spatial transcriptomics</li>
+                  <li>AI-assisted therapeutic target discovery</li>
+                  <li>Regenerative immunotherapy</li>
+                  <li>Biomaterials &amp; spatiotemporal drug delivery</li>
+                </ul>
+              </dd>
             </div>
           </dl>
         </aside>
@@ -209,36 +216,29 @@
         </article>
       </section>
 
-      <section class="section-rule" id="news" aria-labelledby="news-heading">
+      <section class="section-rule" id="writing" aria-labelledby="writing-heading">
         <div class="section-heading">
           <div>
-            <p class="section-index">05 / Updates</p>
-            <h2 id="news-heading">News</h2>
+            <p class="section-index">05 / Writing</p>
+            <h2 id="writing-heading">Research Writing</h2>
           </div>
-          <p>A short record of new work, talks, awards, and collaborations.</p>
+          <p>Essays and working notes on regenerative biology, omics, biomaterials, and therapeutic discovery.</p>
         </div>
 
-        <div class="news-list">
-          <article>
-            <time datetime="2026-05">May 2026</time>
-            <h3>Invited talk at Korea University</h3>
-            <p>“Engineering immunity across scales: From molecules to tissue environments.”</p>
-          </article>
-          <article>
-            <time datetime="2026-03">Mar 2026</time>
-            <h3>Best Poster Award</h3>
-            <p>KSEA DC–Virginia–Maryland Regional Conference, Baltimore.</p>
-          </article>
-          <article>
-            <time datetime="2025">2025</time>
-            <h3>KASBP–Dong-A ST Fellowship</h3>
-            <p>Selected for the Korean American Society in Biotech and Pharmaceuticals fellowship.</p>
-          </article>
-          <article>
-            <time datetime="2025">2025</time>
-            <h3>News & Views in Nature Aging</h3>
-            <p>Published “Aging as a glitch in the matrix” with Jennifer H. Elisseeff.</p>
-          </article>
+        <div class="writing-board" aria-label="Research writing board">
+          <div class="writing-board-header" aria-hidden="true">
+            <span>Date</span>
+            <span>Topic</span>
+            <span>Article</span>
+          </div>
+          <div class="writing-empty">
+            <span class="writing-empty-date" aria-hidden="true">—</span>
+            <p class="writing-empty-label">Open notebook</p>
+            <div>
+              <h3>Research notes will be published here.</h3>
+              <p>Each entry will include a date, research topic, short summary, and a link to the full article.</p>
+            </div>
+          </div>
         </div>
       </section>
 
