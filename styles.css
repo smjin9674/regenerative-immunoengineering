@@ -596,7 +596,9 @@ footer p {
 }
 
 .publication-covers {
-  margin: -1.25rem 0 3rem;
+  width: calc(100% - 1.65rem);
+  max-width: 1000px;
+  margin: -1.25rem 0 3rem 1.65rem;
 }
 
 .publication-covers img {
